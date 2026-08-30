@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usamot Olamilekan — UI/UX Designer & Frontend Developer</title>
+  <meta name="description" content="Usamot Olamilekan is a UI/UX Designer & Frontend Developer crafting clean, premium digital experiences across product, web, and mobile.">
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230B0B0C'/><text x='50' y='68' font-size='52' font-family='Arial' font-weight='700' fill='%237C3AED' text-anchor='middle'>U</text></svg>">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="nav" id="top">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" aria-label="Usamot Olamilekan — home">
+        <span class="nav-logo-mark">UO</span><span class="nav-logo-dot">.</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Primary">
+        <a href="#about" class="nav-link"><span class="nav-link-num">01</span>About</a>
+        <a href="#skills" class="nav-link"><span class="nav-link-num">02</span>Skills</a>
+        <a href="#work" class="nav-link"><span class="nav-link-num">03</span>Work</a>
+        <a href="#contact" class="nav-link"><span class="nav-link-num">04</span>Contact</a>
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">Let's Talk</a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-inner">
+
+        <p class="availability reveal">
+          <span class="availability-dot" aria-hidden="true"></span>
+          Available for freelance &amp; full-time roles
+        </p>
+
+        <p class="hero-eyebrow reveal" style="--d:0.05s">UI/UX Designer &amp; Frontend Developer</p>
+
+        <h1 class="hero-title reveal" id="hero-title" style="--d:0.1s">
+          Usamot<br>
+          <span class="gradient">Olamilekan</span>
+        </h1>
+
+        <p class="hero-sub reveal" style="--d:0.15s">
+          I design and build clean, premium digital experiences — turning
+          complex problems into interfaces that feel effortless, look beautiful,
+          and ship fast.
+        </p>
+
+        <div class="hero-actions reveal" style="--d:0.2s">
+          <a href="#work" class="btn btn-primary">
+            View My Work
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+
+        <div class="hero-tools reveal" style="--d:0.25s" aria-hidden="true">
+          <span>Figma</span><span>UI/UX</span><span>HTML</span><span>CSS</span>
+          <span>JavaScript</span><span>React</span><span>Prototyping</span><span>Design Systems</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="section-head reveal">
+          <p class="section-label"><span>01</span> About</p>
+          <h2 class="section-title" id="about-title">
+            Turning ideas into<br><span class="gradient">interfaces</span>
+          </h2>
+        </div>
+
+        <div class="about-body">
+          <p class="reveal" style="--d:0.05s">
+            I'm a UI/UX designer and frontend developer who obsesses over the
+            details — spacing, motion, micro-interactions — because those are
+            what make a product feel <em>premium</em> rather than just "done".
+          </p>
+          <p class="reveal" style="--d:0.1s">
+            Whether I'm mapping user flows in Figma or shipping pixel-perfect
+            HTML and CSS, my goal stays the same: build experiences that are
+            genuinely useful and genuinely beautiful.
+          </p>
+          <ul class="about-points reveal" style="--d:0.15s">
+            <li>2+ years designing &amp; building for web &amp; mobile</li>
+            <li>Comfortable across the full design-to-code flow</li>
+            <li>Detail-obsessed: the last 10% is what I live for</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="skills section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-label"><span>02</span> Skills</p>
+          <h2 class="section-title" id="skills-title">
+            What I bring to<br><span class="gradient">the table</span>
+          </h2>
+        </div>
+
+        <div class="skills-grid">
+
+          <article class="skill-card reveal" style="--d:0s">
+            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3c-2.5 0-4 1.5-4 3.5S7 10 5.5 11.5 2 15 2 16.5 3.5 19 5 19h14c1.5 0 3-1.5 3-3s-1.5-3-2.5-4S19 9.5 19 7.5 18 3 15.5 3H12z"/>
+            </svg>
+            <h3>UI/UX Design</h3>
+            <p>User research, wireframes and high-fidelity UI that balance aesthetics with real usability.</p>
+            <ul class="skill-tags">
+              <li>UI Design</li>
+              <li>UX Research</li>
+              <li>Wireframing</li>
+              <li>Prototyping</li>
+              <li>Design Systems</li>
+              <li>Usability</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" style="--d:0.1s">
+            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="m8 6-6 6 6 6"/><path d="m16 6 6 6-6 6"/><path d="m13 4-2 16"/>
+            </svg>
+            <h3>Frontend Development</h3>
+            <p>Clean, semantic, responsive interfaces. Fast, accessible, and built to be maintainable.</p>
+            <ul class="skill-tags">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Responsive</li>
+              <li>Git</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" style="--d:0.15s">
+            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="14" rx="2"/><path d="M2 10h20"/><path d="m9 18-2 3"/><path d="m15 18 2 3"/>
+            </svg>
+            <h3>Tools &amp; Workflow</h3>
+            <p>The toolkit that helps me move from loose idea to polished product without friction.</p>
+            <ul class="skill-tags">
+              <li>Figma</li>
+              <li>Adobe XD</li>
+              <li>VS Code</li>
+              <li>Notion</li>
+              <li>Miro</li>
+              <li>Framer</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="work section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-head work-head reveal">
+          <p class="section-label"><span>03</span> Selected Work</p>
+          <h2 class="section-title" id="work-title">
+            Featured<br><span class="gradient">projects</span>
+          </h2>
+        </div>
+
+        <div class="projects">
+
+          <!-- HushBuy -->
+          <article class="project-card reveal">
+            <div class="project-stage">
+              <span class="stage-tag">Case Study</span>
+              <div class="mock mock-phone mock-hushbuy">
+                <div class="phone-screen">
+                  <div class="screen-status">
+                    <span class="screen-clock">9:41</span><span class="screen-icons"></span>
+                  </div>
+                  <div class="hb-top">
+                    <span class="hb-logo"></span>
+                    <span class="hb-avatar"></span>
+                  </div>
+                  <div class="hb-search">Search products…</div>
+                  <div class="hb-title-line"></div>
+                  <div class="hb-product">
+                    <span class="hb-product-img"></span>
+                    <span class="hb-product-info">
+                      <span class="hb-product-name"></span>
+                      <span class="hb-price">$89</span>
+                      <span class="hb-cart">Add to Cart</span>
+                    </span>
+                  </div>
+                  <div class="hb-bottom"></div>
+                </div>
+              </div>
+              <span class="stage-corner" aria-hidden="true"></span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">HushBuy <span class="project-role">UI/UX Case Study</span></h3>
+              <p class="project-desc">
+                A stealth shopping app that hides the excitement of online
+                retail — explore, save, and check out with full privacy.
+              </p>
+              <ul class="skill-tags" aria-hidden="true">
+                <li>Case Study</li><li>Mobile</li><li>E-commerce</li>
+              </ul>
+              <div class="project-actions">
+                <!-- TODO: replace the # hrefs with your real links -->
+                <a href="#" class="btn btn-primary">
+                  View Prototype
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+                </a>
+                <a href="#" class="btn btn-ghost">
+                  View Project
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Off Core -->
+          <!-- To link another card out, swap <article class="project-card"> for
+               <a class="project-card" href="URL" target="_blank" rel="noopener"> and close with </a>. -->
+          <a href="https://off-core-brand.vercel.app/" target="_blank" rel="noopener"
+             class="project-card reveal" style="--d:0.1s" aria-label="Off Core project">
+            <div class="project-stage">
+              <span class="stage-tag">Frontend</span>
+              <!-- TODO: save your screenshot as 'off-core.png' in this folder (same directory as index.html).
+                   Delete the CSS dashboard mockup below by removing the <div class="mock mock-dashboard">…</div> block. -->
+              <img src="off-core.png" alt="Off Core project screenshot" loading="lazy" class="project-shot">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Off Core <span class="project-role">Frontend</span></h3>
+              <p class="project-desc">
+                One clean dashboard for campus life — timetable, results, and
+                news in a single unified interface.
+              </p>
+              <ul class="skill-tags" aria-hidden="true">
+                <li>Frontend</li><li>Dashboard</li><li>Web App</li>
+              </ul>
+              <span class="project-link">
+                View Project
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Splash -->
+          <article class="project-card reveal">
+            <div class="project-stage">
+              <span class="stage-tag">Case Study</span>
+              <!-- TODO: save a Splash screenshot as 'splash.png' in this folder (same directory as index.html).
+                   Delete the phone mockup block once added. -->
+              <img src="splash.png" alt="Splash project screenshot" loading="lazy" class="project-shot">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Splash <span class="project-role">UI/UX Case Study</span></h3>
+              <p class="project-desc">
+                A money app designed end-to-end — user flows, wireframes, and
+                prototype testing leading to a bold, glanceable banking UI.
+              </p>
+              <ul class="skill-tags" aria-hidden="true">
+                <li>Case Study</li><li>food store</li><li>Mobile</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://www.figma.com/proto/WKpoqECKjp1qG0L6p0OAqY/Splash?node-id=0-1&amp;t=fTXIf1GIl2zI2MUJ-1" target="_blank" rel="noopener" class="btn btn-primary">
+                  View Prototype
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+                </a>
+                <a href="https://www.figma.com/design/WKpoqECKjp1qG0L6p0OAqY/Splash?node-id=0-1&amp;t=fTXIf1GIl2zI2MUJ-1" target="_blank" rel="noopener" class="btn btn-ghost">
+                  View Project
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Personal Portfolio -->
+          <article class="project-card reveal" style="--d:0.1s">
+            <div class="project-stage">
+              <span class="stage-tag">Frontend</span>
+              <div class="mock mock-browser">
+                <div class="browser-bar">
+                  <span class="browser-dots"><i></i><i></i><i></i></span>
+                  <span class="browser-url">usamot.dev</span>
+                </div>
+                <div class="browser-body">
+                  <span class="browser-eyebrow"></span>
+                  <span class="browser-title"></span>
+                  <span class="browser-title short"></span>
+                  <span class="browser-btns"><i></i><i></i></span>
+                  <span class="browser-squares"><i></i><i></i><i></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Personal Portfolio <span class="project-role">Frontend</span></h3>
+              <p class="project-desc">
+                This site — hand-crafted with HTML, CSS, and a little
+                JavaScript. No frameworks, no fluff.
+              </p>
+              <ul class="skill-tags" aria-hidden="true">
+                <li>Frontend</li><li>Design</li><li>Web</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-glow" aria-hidden="true"></div>
+      <div class="container contact-inner">
+        <p class="section-label center reveal"><span>04</span> Contact</p>
+        <h2 class="contact-title reveal" id="contact-title" style="--d:0.05s">
+          Have a project in mind?<br><span class="gradient">Let's build it.</span>
+        </h2>
+        <p class="contact-sub reveal" style="--d:0.1s">
+          My inbox is always open — whether you have a project in mind, a role
+          to fill, or just want to say hello.
+        </p>
+
+        <div class="contact-actions reveal" style="--d:0.15s">
+          <!-- TODO: replace with your real email -->
+          <a href="mailto:usamotolamilekan@gmail.com" class="btn btn-primary btn-lg">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            usamotolamilekan@gmail.com
+          </a>
+        </div>
+
+        <!-- TODO: replace the placeholder social URLs with real profiles -->
+        <ul class="socials reveal" style="--d:0.2s">
+          <li>
+            <a href="https://github.com/" class="social" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25 2 16.79 4.87 20.66 8.84 21.98c.6.11.82-.26.82-.59 0-.29-.01-1.06-.02-2.08-3.34.74-4.04-1.64-4.04-1.64-.55-1.42-1.34-1.8-1.34-1.8-1.09-.76.08-.74.08-.74 1.2.09 1.84 1.26 1.84 1.26 1.07 1.87 2.8 1.33 3.49 1.02.11-.8.42-1.33.76-1.64-2.67-.31-5.47-1.36-5.47-6.05 0-1.34.47-2.42 1.23-3.28-.12-.31-.53-1.56.12-3.25 0 0 1-.33 3.28 1.25a11.2 11.2 0 0 1 5.98 0C16.44 2.92 17.44 3.25 17.44 3.25c.65 1.69.24 2.94.12 3.25.77.86 1.23 1.94 1.23 3.28 0 4.7-2.81 5.74-5.49 6.04.43.38.81 1.12.81 2.26 0 1.63-.01 2.94-.01 3.34 0 .33.21.71.83.59A10.52 10.52 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+              <span>GitHub</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/" class="social" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.94 8.5H3.56v12h3.38v-12Zm-1.69-1.06h-.02a1.94 1.94 0 1 1 .02-3.88 1.94 1.94 0 0 1 0 3.88ZM20.46 14.08c0-3.13-1.67-4.59-3.9-4.59-1.8 0-2.6.99-3.05 1.68V8.5H10.14v12h3.37v-6.64c0-.28.02-.56.1-.76.22-.56.72-1.14 1.56-1.14 1.1 0 1.54.84 1.54 2.07v6.47h3.75v-6.42Z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://dribbble.com/" class="social" aria-label="Dribbble">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.6 4.6a8.5 8.5 0 0 1 1.9 5.2c-.3-.1-3.2-.6-6.1-.3-.1-.2-.2-.5-.3-.7-.3-.7-.6-1.4-.9-2 3.2-1.4 4.9-2.2 5.4-2.2ZM12 3.5c2.2 0 4.1.8 5.7 2.1-.4.2-2 1-5 2.3-1.5-2.9-3.1-5.2-3.4-5.6A8.7 8.7 0 0 1 12 3.5ZM7.3 4.2c.3.3 1.9 2.6 3.3 5.4-4.2 1.1-7.9 1.1-8.3 1.1 1-2.9 2.8-5.3 5-6.5Zm-5.7 7.6c0-.2 0-.4 0-.6.4 0 4.9 0 9.3-1.4.3.5.5 1.1.7 1.6l-.4.1c-4.7 1.5-7.2 5.7-7.4 6A8.6 8.6 0 0 1 1.6 11.8ZM12 20.5c-2 0-3.8-.7-5.2-1.8.2-.4 2.1-4.3 7.2-6 .1 0 .2-.1.3-.1a26 26 0 0 1 1.7 6.3c-1.2.8-2.2 1.6-4 1.6Zm6.3-2.8c-.1-.5-1.1-4.7-3-7.2 2.7-.4 5.1-.3 5.5-.2a8.6 8.6 0 0 1-2.5 7.4Z"/></svg>
+              <span>Dribbble</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://x.com/" class="social" aria-label="X (Twitter)">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.75 3h3.07l-6.71 7.67L22 21h-6.19l-4.84-6.33L5.44 21H2.36l7.18-8.2L2 3h6.35l4.37 5.78L17.75 3Zm-1.08 16.2h1.7L7.4 4.73H5.58l11.1 14.47Z"/></svg>
+              <span>X</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-logo">UO<span class="gradient">.</span></span>
+      <p>© 2026 Usamot Olamilekan. Designed &amp; built with HTML, CSS &amp; a little JavaScript.</p>
+      <a href="#top" class="footer-top">Back to top
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

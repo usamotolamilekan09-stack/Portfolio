@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usamot Olamilekan - CV</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { min-height: 100vh; }
+    .cv-page { padding: 72px 0; }
+    .cv-sheet { max-width: 860px; margin: 0 auto; padding: clamp(28px, 6vw, 68px); background: rgba(18, 18, 23, 0.92); border: 1px solid var(--border-strong); box-shadow: 0 32px 80px rgba(0, 0, 0, 0.35); }
+    .cv-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 28px; padding-bottom: 30px; border-bottom: 1px solid var(--border-strong); }
+    .cv-kicker { margin: 0 0 10px; color: var(--accent-2); font-size: var(--fs-small); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+    .cv-name { margin: 0; font-size: clamp(2.4rem, 7vw, 5rem); line-height: 0.95; letter-spacing: -0.04em; }
+    .cv-role { margin: 14px 0 0; color: var(--text-2); font-size: 1.05rem; }
+    .cv-contact { max-width: 270px; margin: 4px 0 0; color: var(--text-2); font-size: var(--fs-small); line-height: 1.8; text-align: right; }
+    .cv-section { padding-top: 30px; }
+    .cv-section h2 { margin: 0 0 14px; color: var(--accent-2); font-size: var(--fs-small); letter-spacing: 0.08em; text-transform: uppercase; }
+    .cv-section p { max-width: 700px; margin: 0; color: var(--text-2); line-height: 1.8; }
+    .cv-skills { display: flex; flex-wrap: wrap; gap: 9px; margin: 0; padding: 0; list-style: none; }
+    .cv-skills li { padding: 8px 12px; color: var(--text-2); border: 1px solid var(--border-strong); border-radius: 999px; font-size: var(--fs-small); }
+    .cv-entry { padding: 18px 0; border-top: 1px solid var(--border); }
+    .cv-entry:first-of-type { padding-top: 0; border-top: 0; }
+    .cv-entry-head { display: flex; justify-content: space-between; gap: 20px; }
+    .cv-entry h3 { margin: 0; font-size: 1.05rem; }
+    .cv-entry time { color: var(--accent-2); font-size: var(--fs-small); white-space: nowrap; }
+    .cv-entry p { margin-top: 8px; }
+    .cv-actions { display: flex; justify-content: center; gap: 12px; margin-top: 34px; }
+    @media (max-width: 620px) {
+      .cv-page { padding: 28px 0; }
+      .cv-top, .cv-entry-head { display: block; }
+      .cv-contact { margin-top: 20px; text-align: left; }
+      .cv-entry time { display: block; margin-top: 6px; }
+      .cv-actions { flex-direction: column; }
+      .cv-actions .btn { width: 100%; }
+    }
+    @media print {
+      body { background: #fff; color: #111; }
+      .nav, .cv-actions { display: none; }
+      .cv-page { padding: 0; }
+      .cv-sheet { max-width: none; padding: 0; border: 0; box-shadow: none; background: #fff; }
+      .cv-name, .cv-entry h3 { color: #111; }
+      .cv-role, .cv-contact, .cv-section p, .cv-skills li { color: #333; }
+      .cv-section h2, .cv-entry time { color: #6d28d9; }
+    }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Return to portfolio"><span class="nav-logo-mark">UO</span><span class="nav-logo-dot">.</span></a>
+      <a href="index.html#contact" class="btn btn-ghost btn-sm">Back to portfolio</a>
+    </div>
+  </header>
+
+  <main class="cv-page">
+    <article class="cv-sheet">
+      <header class="cv-top">
+        <div>
+          <p class="cv-kicker">Curriculum Vitae</p>
+          <h1 class="cv-name">Usamot<br><span class="gradient">Olamilekan</span></h1>
+          <p class="cv-role">Aspiring Data Analyst | UI/UX Designer</p>
+        </div>
+        <p class="cv-contact">35, Oduduwa Road, Ipaja, Lagos State<br>+234 707 390 556<br>usamotolamilkan09@gmail.com</p>
+      </header>
+
+      <section class="cv-section">
+        <h2>Profile</h2>
+        <p>Motivated and detail-oriented aspiring Data Analyst with a strong interest in transforming data into meaningful business insights. Knowledgeable in Microsoft Excel, Google Sheets, Python, SQL, and data visualization fundamentals. A fast learner with a background in UI/UX design, bringing strong analytical thinking, attention to detail, and problem-solving skills. Eager to contribute to a dynamic analytics team while gaining hands-on industry experience.</p>
+      </section>
+
+      <section class="cv-section">
+        <h2>Skills</h2>
+        <ul class="cv-skills">
+          <li>Microsoft Excel (Pivot Tables, Charts, Formulas, Data Cleaning)</li>
+          <li>Google Sheets</li><li>SQL (Basic Queries)</li><li>Python (Pandas, NumPy, Matplotlib - Beginner)</li><li>Data Cleaning</li><li>Exploratory Data Analysis (EDA)</li>
+        </ul>
+      </section>
+
+      <section class="cv-section">
+        <h2>Experience</h2>
+        <div class="cv-entry"><div class="cv-entry-head"><h3>Freelance UI/UX Designer | Remote</h3><time>2024 - Present</time></div><p>Collected and analyzed user feedback to improve product usability.<br>Used research findings to support design decisions.<br>Organized project information and presented insights visually.<br>Collaborated with clients to deliver user-focused solutions.</p></div>
+        <div class="cv-entry"><div class="cv-entry-head"><h3>Personal Learning Projects | Data Analytics</h3><time>2025 - Present</time></div><p>Practicing data analysis using Excel and Python.<br>Cleaning and analyzing datasets to identify trends.<br>Creating charts, Pivot Tables, and simple dashboards.<br>Learning SQL for querying and managing data.</p></div>
+      </section>
+
+      <section class="cv-section">
+        <h2>Education</h2>
+        <div class="cv-entry"><div class="cv-entry-head"><h3>Fadmort College, Ipaja, Ayobo - SSCE Certificate</h3><time>Sept 2010 - Sept 2019</time></div><p>Completed foundational education in core subjects.<br>Developed basic computer literacy and communication skills.</p></div>
+      </section>
+
+      <div class="cv-actions"><a href="Usamot-Olamilekan-CV.docx" class="btn btn-ghost" download>Download Original CV</a><button class="btn btn-primary" type="button" onclick="window.print()">Print CV</button></div>
+    </article>
+  </main>
+</body>
+</html>
